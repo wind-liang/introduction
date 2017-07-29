@@ -1,0 +1,23 @@
+﻿* { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+a:link, a:visited, ins { text-decoration: none; }
+img{border:none}
+
+body { background-color: #FFFFFF; font-family: "微软雅黑", "宋体", "黑体", Arial; }
+.header { position: relative; height: 90px; background: url(../images/line-solid.gif) repeat-x bottom; width: 960px; margin: 0 auto; z-index: 100; }
+
+.menu { height: 40px; background: url(../images/menu_bg_1.gif) no-repeat -99px bottom; z-index: 100; background-position: 0px 100%; position: absolute; top: 50px; right: 0; padding-right: 1px; }
+.menu li { float: left; font-size: 14px; text-align: center; line-height: 18px; padding: 0; }
+.menu li a { padding: 2px 35px; border-right: 1px solid #D7D7D7; color: #242424; font-weight: bold; margin: 0; border-left: none; display: inline-block; font-size: 14px; width: 30px; }
+.menu li a.noborder { border-right: none; }
+.main-content {
+    position: relative;
+    width: 960px;
+    margin: 20px auto;
+    z-index: 100;
+}
+.main-content img{
+    width:200px;
+    height: 300px;
+}
+.miui_logo { position: absolute; top: 29px; left: 0; }
