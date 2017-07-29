@@ -16,8 +16,19 @@ body { background-color: #FFFFFF; font-family: "微软雅黑", "宋体", "黑体
     margin: 20px auto;
     z-index: 100;
 }
-.main-content img{
-    width:200px;
-    height: 300px;
+.main-content .intro{
+    margin-left: 220px;
+    padding-left: 220px;
+    margin-top: 20px;
 }
-.miui_logo { position: absolute; top: 29px; left: 0; }
+.main-content .introduce-me{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 80px;
+}
+.main-content .par{
+    margin-bottom: 30px;
+}
+.main-content .parsmall{
+    margin-bottom: 8px;
+}
